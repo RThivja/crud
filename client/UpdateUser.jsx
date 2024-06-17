@@ -64,7 +64,7 @@ function UpdateUser() {
                         <input type="number" id="age" placeholder='Enter Age' className='form-control' 
                         value={age} onChange={(e) => setAge(e.target.value)} />
                     </div>
-                    <div className='mb-2'>
+                    g<div className='mb-2'>
                         <label htmlFor="image">Image</label>
                         <input type="file" id="image" className='form-control' />
                         {image && (
